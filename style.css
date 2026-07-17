@@ -1,0 +1,70 @@
+body {
+    margin: 50px;
+}
+
+.profile-page {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 0px;
+}
+
+.left-column {
+    flex-shrink: 0;
+}
+
+h1 {
+    margin: 0 0 30px;
+}
+
+img {
+    display: block;
+    width: 350px;
+    height: auto;
+}
+
+.contact {
+    padding-top: 150px;
+}
+
+.about {
+   max-width: 1000px;
+   margin: 30px 0px;
+}
+
+.content-section {
+   width: 1000px;
+   max-width: 100%;
+   box-sizing: border-box;
+   padding: 22px 0;
+   border-bottom: 1px solid #aaa;
+}
+
+.content-section h2 {
+   margin: 0 0 16px;
+}
+
+.content-section p,
+.content-section li {
+   line-height: 1.5;
+}
+
+@media (max-width: 750px) {
+   body {
+      margin: 20px;
+   }
+
+   .profile-page {
+      flex-direction: column;
+      gap: 25px;
+   }
+
+   .contact {
+      padding-top: 0;
+   }
+
+   img {
+      width: 100%;
+      max-width: 350px;
+   }
+}
